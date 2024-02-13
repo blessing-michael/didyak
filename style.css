@@ -12,6 +12,7 @@
     background-size: cover;
   width: 100%;
   height: 1000px;  
+
   
 
 }
@@ -48,7 +49,7 @@
 .firstimg p{
     background-color: rgb(184, 180, 180);
     height: 50%;
-    padding: 30px 20px;
+    padding: 20px;
     color: rgb(234, 233, 233);
     margin-left: 10px;
 }
@@ -364,7 +365,20 @@ input#open{
       }
     
 
-
+      .firstimg p{
+      
+        
+      
+        color: rgb(234, 233, 233);
+        
+    }
+    .textcontainer{
+        
+        width: 100%;
+        background-color: #d04e4e;
+        background-color: rgb(184, 180, 180);
+        margin-left: 10px;
+    }
 
 }
 
