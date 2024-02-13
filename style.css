@@ -243,6 +243,75 @@ input#open{
     z-index: -99;
 
 }
+.text-one::before, .text-one::after{
+    position: absolute;
+    left: 5px;
+    text-align: center;
+    width: 300px;
+   
+}
+
+.text-one::before{
+    content: "Valentine's";
+    top: 30px;
+    color: #d04e4e;
+    font-style: bold;
+}
+.text-one::after{
+    content: "day Ak Rivers";
+    top: 60px;
+    font-style: bold;
+}
+.heart{
+    position: relative;
+    background-color: #d04e4e;
+    height: 60px;
+    width: 60px;
+    top: 180px;
+    left: 120px;
+    transform: rotate(-45deg);
+    animation: beat .48s infinite alternate;
+	transform-origin: center;
+}
+.heart::before, .heart::after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #d04e4e;
+    
+   
+}
+.heart::before{
+  top: -30px;
+  left: 0;
+}
+.heart::after{
+  left: 30px;
+  top: 0;
+}
+.heart::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+@keyframes bit {
+    0%,40%, 100% {transform: scale(1) rotate(-45deg);}
+    25%, 60% {transform: scale(1,1) rotate(-45deg);}
+    
+}
+@keyframes bat{
+	
+    25%, 60% {transform: scale(0.1) rotate(-45deg);}
+}
+
+@keyframes beat{
+	to { transform: scale(0.4) rotate(-45deg); }
+}
+
 
 
 @media only screen and (min-width: 768px) {
