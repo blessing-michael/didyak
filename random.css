@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    
+}
+
+.heartrandom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hearty{
+    color: #000;
+    font-size: 90px;
+    animation: randombeat 0.9s infinite;
+    text-shadow: 0 0 5px red, 0 0 45px red, 0 0 90px red;
+}
+
+@keyframes randombeat {
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.15);
+    }
+    40%{
+        transform: scale(1.4);
+    }
+    
+}
+
+.quote{
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.maincontainer{
+    background-color: rgb(128, 120, 111);
+    width: 40%;
+    
+    height: 70px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+   padding: 30px 0;
+   box-shadow: rgba(0, 0, 0, .3);
+   line-height: 1.5;
+}
+.button-area{
+    margin-top: 20px;
+}
+.btn button{
+    padding: 7px  15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #1b1b1b;
+    color: rgb(219, 216, 216);
+}
