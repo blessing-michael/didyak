@@ -277,7 +277,7 @@ input#open{
 }
 .text-one::after{
     content: "day heartbeat (Ak Rivers)";
-    top: 70px;
+    top: 75px;
     font-style: bold;
 }
 .heart{
