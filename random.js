@@ -1,13 +1,9 @@
 const quotes=[{
-    quote: `"yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"`
+    quote: `"Family is where life begins"`
 }, {
-    quote: `"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"`
+    quote: `"Love begins in our home by praying together"`
 }, {
-    quote: `"uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"`
-}, {
-    quote: `"ccccccccccccccccccccccccccccccccccccccccccc"`
-}, {
-    quote: `"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzppppppppppppppppppppppppppppppp"`
+    quote: `"Even if you are flawed like all humans are, you are still flawless in my eyes, and that is all that matters."`
 }]
 
 

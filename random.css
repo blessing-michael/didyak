@@ -30,25 +30,41 @@ body{
     }
     
 }
-
 .quote{
+    
+    margin-top: 0;
+   
+    padding: 20px 0;
+}
+.fish{
     color: black;
     text-align: center;
     padding: 30px;
+   
+}
+.textzone{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: blue;
+    background-color: rgb(128, 120, 111);
+    border-radius: 15px;
+   
 }
 .maincontainer{
-    background-color: rgb(128, 120, 111);
-    width: 40%;
     
+    width: 40%; 
     height: 70px;
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 15px;
+    
     color: black;
     text-align: center;
-   padding: 30px 0;
    box-shadow: rgba(0, 0, 0, .3);
    line-height: 1.5;
 }
@@ -62,4 +78,34 @@ body{
     cursor: pointer;
     background-color: #1b1b1b;
     color: rgb(219, 216, 216);
+}
+.nav-info li a{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 375px) {
+    .textzone{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background-color: blue;
+        background-color: rgb(128, 120, 111);
+        border-radius: 15px;
+       
+       
+    }
+
+    .maincontainer{
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
 }
