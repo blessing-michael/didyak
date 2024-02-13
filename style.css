@@ -271,13 +271,13 @@ input#open{
 
 .text-one::before{
     content: "Valentine's";
-    top: 30px;
+    top: 40px;
     color: #d04e4e;
     font-style: bold;
 }
 .text-one::after{
     content: "day heartbeat (Ak Rivers)";
-    top: 60px;
+    top: 70px;
     font-style: bold;
 }
 .heart{
